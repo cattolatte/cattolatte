@@ -69,8 +69,6 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cattolatte&layout=compact&langs_count=8&theme=tokyonight"/>
 </div>
 
-![](https://nirzak-streak-stats.vercel.app/?user=cattolatte&theme=dark&hide_border=false)<br/>
-
 ---
 
 ## 🔥 Featured Projects
