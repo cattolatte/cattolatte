@@ -1,210 +1,381 @@
-# Hi there, I'm Nischal! 👋
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=0891B2&width=435&lines=Passionate+ML+%26+Cybersecurity+Developer;Always+learning+and+building!;Let's+connect+and+collaborate!" alt="Typing SVG" />
+
+<!-- HEADER / BANNER -->
+<img src="https://i.pinimg.com/564x/e9/de/ec/e9deec7ff3325fa19263004b4b834087.jpg" alt="Profile Banner" width="800px" />
+
+<br/>
+
+<!-- TYPING SVG -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=%24+whoami;nischal+%7C+ml+engineer+%2B+security+researcher;%24+cat+%2Fetc%2Fpassion+%7C+grep+-i+%22always+learning%22" alt="Typing SVG" />
+</a>
+
+<br/>
+
+<!-- SOCIAL BADGES -->
+<a href="https://www.linkedin.com/in/satyasainischal/">
+  <img src="https://img.shields.io/badge/-%40satyasainischal-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+</a>
+&nbsp;
+<a href="mailto:cattolatte@gmail.com">
+  <img src="https://img.shields.io/badge/-cattolatte%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://github.com/cattolatte">
+  <img src="https://img.shields.io/badge/-cattolatte-181717?style=flat-square&logo=github&logoColor=white" />
+</a>
+&nbsp;
+<img src="https://visitor-badge.laobi.icu/badge?page_id=cattolatte.cattolatte&left_color=gray&right_color=00FF41" />
+
 </div>
 
-<p align="center">
-  <img src="https://i.pinimg.com/564x/e9/de/ec/e9deec7ff3325fa19263004b4b834087.jpg" alt="Profile Banner" width="700px" />
-</p>
+<br/>
 
----
+<!-- TERMINAL ABOUT ME -->
+```bash
+$ cat /home/nischal/about.txt
+```
 
-### 🌐 Connect with Me
-<p align="center">
-  <a href="https://www.linkedin.com/in/satyasainischal/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href="mailto:coderstale@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge"/>
-  </a>
-</p>
+```yaml
+name:      Nischal
+alias:     cattolatte | cattolatte
+location:  India
+role:      CS Undergrad @ Geethanjali College of Engineering & Technology
 
----
+focus_areas:
+  - Machine Learning & Deep Learning
+  - Natural Language Processing & LLMs
+  - Cybersecurity & Exploit Detection
+  - GenAI Applications & RL Automation
 
-### 📈 Contribution Graph & Activity
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=cattolatte&bg_color=141321&color=ffffff&line=0891b2&point=ffffff&area=true&hide_border=true" alt="Activity Graph" />
-</p>
+currently:
+  building:    "Custom NLP pipelines & GenAI tools"
+  exploring:   "Adversarial ML & Red Team AI"
+  open_to:     "Collaboration on ML, GenAI, Cybersec & OSS"
 
----
+fun_fact:    "I secretly believe all problems can be solved with cats."
+```
 
-<p align="center">
+<br/>
+
+<!-- TECH ARSENAL -->
+<div align="center">
+
+## `> ./scan_arsenal.sh`
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+**`// Languages & Core`**
+
+<br/>
+
+<img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/JavaScript-1a1a2e?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+<img src="https://img.shields.io/badge/Java-1a1a2e?style=for-the-badge&logo=openjdk&logoColor=ED8B00" />
+<img src="https://img.shields.io/badge/C-1a1a2e?style=for-the-badge&logo=c&logoColor=A8B9CC" />
+
+</td>
+<td align="center" width="50%">
+
+**`// AI / ML / DL`**
+
+<br/>
+
+<img src="https://img.shields.io/badge/PyTorch-1a1a2e?style=for-the-badge&logo=pytorch&logoColor=EE4C2C" />
+<img src="https://img.shields.io/badge/TensorFlow-1a1a2e?style=for-the-badge&logo=tensorflow&logoColor=FF6F00" />
+<img src="https://img.shields.io/badge/HuggingFace-1a1a2e?style=for-the-badge&logo=huggingface&logoColor=FFD21E" />
+<img src="https://img.shields.io/badge/scikit--learn-1a1a2e?style=for-the-badge&logo=scikitlearn&logoColor=F7931E" />
+<img src="https://img.shields.io/badge/OpenCV-1a1a2e?style=for-the-badge&logo=opencv&logoColor=5C3EE8" />
+<img src="https://img.shields.io/badge/YOLOv8-1a1a2e?style=for-the-badge&logo=yolo&logoColor=00FFFF" />
+<img src="https://img.shields.io/badge/LangChain-1a1a2e?style=for-the-badge&logo=chainlink&logoColor=375BD2" />
+
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+
+**`// Frameworks & Backend`**
+
+<br/>
+
+<img src="https://img.shields.io/badge/FastAPI-1a1a2e?style=for-the-badge&logo=fastapi&logoColor=009688" />
+<img src="https://img.shields.io/badge/Flask-1a1a2e?style=for-the-badge&logo=flask&logoColor=white" />
+<img src="https://img.shields.io/badge/Node.js-1a1a2e?style=for-the-badge&logo=nodedotjs&logoColor=339933" />
+<img src="https://img.shields.io/badge/React-1a1a2e?style=for-the-badge&logo=react&logoColor=61DAFB" />
+
+</td>
+<td align="center" width="50%">
+
+**`// DevOps & Security`**
+
+<br/>
+
+<img src="https://img.shields.io/badge/Docker-1a1a2e?style=for-the-badge&logo=docker&logoColor=2496ED" />
+<img src="https://img.shields.io/badge/NGINX-1a1a2e?style=for-the-badge&logo=nginx&logoColor=009639" />
+<img src="https://img.shields.io/badge/Git-1a1a2e?style=for-the-badge&logo=git&logoColor=F05032" />
+<img src="https://img.shields.io/badge/Linux-1a1a2e?style=for-the-badge&logo=linux&logoColor=FCC624" />
+<img src="https://img.shields.io/badge/Nmap-1a1a2e?style=for-the-badge&logo=gnometerminal&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/PostgreSQL-1a1a2e?style=for-the-badge&logo=postgresql&logoColor=4169E1" />
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+<!-- GITHUB STATS -->
+<div align="center">
+
+## `> neofetch --stats`
+
+<a href="https://github.com/cattolatte">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=cattolatte&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9&ring_color=00FF41" />
+</a>
+&nbsp;
+<a href="https://github.com/cattolatte">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cattolatte&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00FF41&text_color=c9d1d9" />
+</a>
+
+<br/><br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=cattolatte&theme=chartreuse-dark&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41" />
+
+</div>
+
+<br/>
+
+<!-- ACTIVITY GRAPH -->
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=cattolatte&bg_color=0d1117&color=00FF41&line=00FF41&point=FFFFFF&area=true&hide_border=true&area_color=00FF4120" alt="Activity Graph" />
+
+</div>
+
+<br/>
+
+<!-- SNAKE -->
+<div align="center">
   <img src="https://raw.githubusercontent.com/cattolatte/cattolatte/output/dist/github-contribution-grid-snake.svg" alt="Snake Animation" />
-</p>
+</div>
 
----
+<br/>
 
-### 🧠 Technologies & Tools
-<p align="center">
-  <img src="https://img.shields.io/badge/-Python-000?&logo=python" />
-  <img src="https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript" />
-  <img src="https://img.shields.io/badge/-Node.js-000?&logo=node.js" />
-  <img src="https://img.shields.io/badge/-React-000?&logo=react" />
-  <img src="https://img.shields.io/badge/-Flask-000?&logo=flask" />
-  <img src="https://img.shields.io/badge/-Docker-000?&logo=docker" />
-  <img src="https://img.shields.io/badge/-Git-000?&logo=git" />
-  <img src="https://img.shields.io/badge/-PostgreSQL-000?&logo=postgresql" />
-  <img src="https://img.shields.io/badge/-OpenCV-000?&logo=opencv" />
-  <img src="https://img.shields.io/badge/-YOLOv8-000?&logo=openai" />
-  <img src="https://img.shields.io/badge/-LangChain-000?&logo=openai" />
-  <img src="https://img.shields.io/badge/-HuggingFace-000?&logo=huggingface" />
-</p>
+<!-- PROJECTS SECTION -->
+<div align="center">
 
----
+## `> ls -la ~/projects/`
 
-### 🚀 About Me
-- 🎓 CS Undergrad | Geethanjali College of Engineering & Technology  
-- 🤖 Exploring Machine Learning, NLP, and LLMs  
-- 🛡️ Building tools in Cybersecurity, exploit detection, and automation  
-- 🛠️ Most recent work: GenAI apps, RL automation bots, and custom NLP pipelines  
-- 👯 Open to collaboration on ML, GenAI, Cybersec, and open-source dev  
-- 📫 Reach me at: **coderstale@gmail.com**  
-- 🐾 Fun fact: I secretly believe all problems can be solved with cats.
+</div>
 
----
+<br/>
 
-### 📊 GitHub Stats  
+<!-- ROW 1 -->
+<table>
+<tr>
+<td width="50%" valign="top">
 
-![cattolatte's Stats](https://awesome-github-stats.azurewebsites.net/user-stats/cattolatte?cardType=github&theme=gruvbox&preferLogin=false)
+### [`Zenith NLP Framework`](https://github.com/cattolatte/zenith-nlp-framework)
 
----
+> Advanced from-scratch NLP framework built with PyTorch for training, fine-tuning, and deploying transformer-based models. Full MLOps pipeline with modular architecture.
 
-## 🔥 Featured Projects
-
-### [🤖 Zenith NLP Framework](https://github.com/cattolatte/zenith-nlp-framework)
-> **ZenithNLP** is an advanced, from-scratch NLP framework built with PyTorch for training, fine-tuning, and deploying modern transformer-based models. It serves as a comprehensive toolkit for NLP practitioners and researchers, featuring a modular architecture and a full suite of MLOps capabilities.
 <p>
-    <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python" alt="Python"/>
-    <img src="https://img.shields.io/badge/PyTorch-2.0%2B-orange?style=for-the-badge&logo=pytorch" alt="PyTorch"/>
-    <img src="https://img.shields.io/badge/Hydra-1.3-8A2BE2?style=for-the-badge&logo=hydra" alt="Hydra"/>
-    <img src="https://img.shields.io/badge/MLflow-2.5-00A6E0?style=for-the-badge&logo=mlflow" alt="MLflow"/>
-    <img src="https://img.shields.io/badge/Docker-20.10-blue?style=for-the-badge&logo=docker" alt="Docker"/>
-    <img src="https://img.shields.io/badge/FastAPI-0.104-009688?style=for-the-badge&logo=fastapi" alt="FastAPI"/>
-    <img src="https://img.shields.io/badge/Pytest-7.4-0A9B9B?style=for-the-badge&logo=pytest" alt="Pytest"/>
-    <img src="https://img.shields.io/badge/GitHub%20Actions-black?style=for-the-badge&logo=github-actions" alt="GitHub Actions"/>
+<img src="https://img.shields.io/badge/Python-14354C?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/Hydra-8A2BE2?style=flat-square" />
+<img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
 </p>
 
----
+</td>
+<td width="50%" valign="top">
 
-### [💬 NekoTomo Discord Bot](https://github.com/coderstale/nekotomo-bot)
-> A roleplay-ready Discord bot (as Ganyu from Genshin Impact 🐱), equipped with moderation, interactive responses, and auto features.
+### [`InferFlow`](https://github.com/cattolatte/InferFlow)
+
+> Declarative orchestration engine with computational memory for AI workflows. Enables real-time meta-analysis of data and model performance across pipeline stages.
+
 <p>
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-    <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express"/>
-    <img src="https://img.shields.io/badge/Discord.js-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js"/>
-    <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku"/>
+<img src="https://img.shields.io/badge/Python-14354C?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
 </p>
 
----
+</td>
+</tr>
+</table>
 
-### [🛡️ Advanced Vulnerability Scanner](https://github.com/coderstale/advanced_vulnerability_scanner)
-> Deep vulnerability scanner using Nmap, Flask, and Docker. Generates detailed reports to support security assessments.
+<!-- ROW 2 -->
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [`Advanced Vuln Scanner`](https://github.com/cattolatte/advanced_vulnerability_scanner)
+
+> Deep vulnerability scanner leveraging Nmap and custom detection modules. Generates detailed security assessment reports with severity classification.
+
 <p>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-    <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"/>
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-    <img src="https://img.shields.io/badge/Nmap-000000?style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap"/>
+<img src="https://img.shields.io/badge/Python-14354C?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Nmap-0E83CD?style=flat-square&logo=gnometerminal&logoColor=white" />
 </p>
 
----
+</td>
+<td width="50%" valign="top">
 
-### [⚙️ SwiftWeb – Custom Web Framework](https://github.com/coderstale/SwiftWeb)
-> Lightweight and modular Python-based web framework with routing, templating, auth, and session handling.
+### [`Project cattolatte`](https://github.com/cattolatte/Project-cattolatte)
+
+> Gamified CTF-style portfolio where you exploit misconfigurations, outsmart an AI sentinel, and capture the root flag to win. Interactive terminal in the browser.
+
 <p>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-    <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy"/>
-    <img src="https://img.shields.io/badge/Jinja-B42B2B?style=for-the-badge&logo=jinja&logoColor=white" alt="Jinja"/>
-    <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
+<img src="https://img.shields.io/badge/xterm.js-161616?style=flat-square" />
+<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
 </p>
 
----
+</td>
+</tr>
+</table>
 
-### [🌿 Air Quality Monitor](https://github.com/coderstale/air_quality_monitor)
-> A smart IoT-based AQI prediction and classification tool using a dual-head neural network. Real-time ML inference with display output.
+<!-- ROW 3 -->
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [`Fisch Macro`](https://github.com/cattolatte/fisch-macro)
+
+> Reinforcement learning + computer vision automation bot. Trains a YOLOv8 model with custom RL reward shaping for real-time game interaction.
+
 <p>
-    <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino"/>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-    <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras"/>
-    <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
+<img src="https://img.shields.io/badge/Python-14354C?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/YOLOv8-000?style=flat-square&logo=yolo&logoColor=white" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
 </p>
 
----
+</td>
+<td width="50%" valign="top">
 
-### [🎣 Fisch Macro – RL Automation Bot](https://github.com/coderstale/fisch-macro)
-> A reinforcement learning + computer vision-powered macro bot for a Roblox fishing mini-game. Trains a YOLOv8 model to automate gameplay.
+### [`Image Similarity Search`](https://github.com/cattolatte/image-similarity-search)
+
+> Full-stack image similarity engine with a custom high-performance C backend for feature extraction and an interactive web frontend with visual clustering.
+
 <p>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-    <img src="https://img.shields.io/badge/YOLOv8-000000?style=for-the-badge&logo=yolo&logoColor=white" alt="YOLOv8"/>
-    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
-    <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-14354C?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/D3.js-F9A03C?style=flat-square&logo=d3dotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
 </p>
 
----
+</td>
+</tr>
+</table>
 
-### [🌊 InferFlow – Time-Aware AI Pipeline Engine](https://github.com/coderstale/InferFlow)
-> A powerful, declarative orchestration engine that introduces computational memory to AI workflows, enabling real-time meta-analysis of data and model performance.
+<!-- ROW 4 -->
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [`Air Quality Monitor`](https://github.com/cattolatte/air_quality_monitor)
+
+> Smart IoT-based AQI prediction using a dual-head neural network. Real-time ML inference on Arduino with live display output and classification.
+
 <p>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-    <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
-    <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="NGINX"/>
-    <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" alt="RabbitMQ"/>
-    <img src="https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white" alt="InfluxDB"/>
-    <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-    <img src="https://img.shields.io/badge/Hugging%20Face-Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face Transformers"/>
+<img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-14354C?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
 </p>
 
----
+</td>
+<td width="50%" valign="top">
 
-### [👾 Project CoderStale – Interactive Terminal Portfolio](https://github.com/coderstale/Project-CoderStale)
-> A gamified portfolio where you must exploit misconfigurations, outsmart an AI sentinel, and capture the root flag to win.
+### [`Movie Sentiment Analyzer`](https://github.com/cattolatte/movie-sentiment-analyzer)
+
+> End-to-end sentiment analysis on movie reviews with a custom-trained transformer model, ONNX export, and a robust Java backend for inference.
+
 <p>
-    <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-    <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
-    <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
-    <img src="https://img.shields.io/badge/xterm.js-161616?style=for-the-badge&logo=xterm&logoColor=white" alt="xterm.js"/>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-    <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
-    <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/ONNX-0059FF?style=flat-square&logo=onnx&logoColor=white" />
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
 </p>
 
----
+</td>
+</tr>
+</table>
 
-### [🖼️ High-Performance Image Similarity Search Engine](https://github.com/coderstale/image-similarity-search)
-> A full-stack application that finds visually similar images from a large dataset using a custom high-performance C backend and an interactive web frontend.
+<!-- ROW 5 -->
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [`SwiftWeb`](https://github.com/cattolatte/SwiftWeb)
+
+> Lightweight, modular Python web framework built from scratch with routing, Jinja2 templating, authentication, and session handling.
+
 <p>
-    <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
-    <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-learn"/>
-    <img src="https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3dotjs&logoColor=white" alt="D3.js"/>
-    <img src="https://img.shields.io/badge/Plotly.js-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly.js"/>
+<img src="https://img.shields.io/badge/Python-14354C?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" />
+<img src="https://img.shields.io/badge/Jinja2-B42B2B?style=flat-square&logo=jinja&logoColor=white" />
 </p>
 
----
+</td>
+<td width="50%" valign="top">
 
-### [🎬 Java Movie Sentiment Analyzer](https://github.com/coderstale/movie-sentiment-analyzer)
-> An end-to-end application that performs sentiment analysis on movie reviews, featuring a custom-trained model and a robust Java backend for inference.
+### [`NekoTomo Bot`](https://github.com/cattolatte/nekotomo-bot)
+
+> Roleplay-ready Discord bot (as Ganyu from Genshin Impact) with moderation tools, interactive responses, and auto-scheduling features.
+
 <p>
-    <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
-    <img src="https://img.shields.io/badge/ONNX-0059FF?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX"/>
-    <img src="https://img.shields.io/badge/Hugging%20Face-Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face Transformers"/>
-    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-    <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white" alt="Maven"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Discord.js-5865F2?style=flat-square&logo=discord&logoColor=white" />
+<img src="https://img.shields.io/badge/Express-000?style=flat-square&logo=express&logoColor=white" />
 </p>
 
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- CAT MEME -->
+<div align="center">
+
+## `> cat /dev/random/meme`
+
+<img src="https://i.pinimg.com/736x/39/d9/a6/39d9a6cc24bc2294bee5563a9eac3310.jpg" width="300px" alt="Cat Meme" />
+
+<br/><br/>
+
+```
+ /\_/\    "All bugs are just undocumented features"
+( o.o )     - Every cat-powered developer, ever
+ > ^ <
+```
+
+<br/>
+
 ---
 
-## 🐱 Fun Stuff
+<sub>Thanks for scrolling through my terminal. Star what you like, fork what inspires you, and let's build something cool together.</sub>
 
-![Cat Meme](https://i.pinimg.com/736x/39/d9/a6/39d9a6cc24bc2294bee5563a9eac3310.jpg)
+<br/>
 
----
+<a href="https://github.com/cattolatte?tab=repositories">
+  <img src="https://img.shields.io/badge/-Explore%20All%20Repos-0d1117?style=for-the-badge&logo=github&logoColor=00FF41" />
+</a>
 
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=coderstale.coderstale)
-
-Thanks for stopping by! Check out my repos, star what you like ⭐, and feel free to connect or collaborate.
+</div>
