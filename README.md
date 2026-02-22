@@ -194,7 +194,7 @@
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/cattolatte">
-  <img src="https://awesome-github-stats.azurewebsites.net/user-stats/cattolatte?cardType=octocat&theme=chartreuse-dark&preferLogin=false&Background=0D1117&Title=00FF41&Icon=00FF41&Text=C9D1D9&Ring=00FF41&Border=00000000" height="200" />
+  <img src="https://awesome-github-stats.azurewebsites.net/user-stats/cattolatte?cardType=github&theme=chartreuse-dark&preferLogin=false&Background=0D1117&Title=00FF41&Icon=00FF41&Text=C9D1D9&Ring=00FF41&Border=00000000" height="200" />
 </a>
 
 <br/><br/>
