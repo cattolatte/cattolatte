@@ -190,21 +190,16 @@
 <br/>
 
 <a href="https://github.com/cattolatte">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=cattolatte&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9&ring_color=00FF41&count_private=true" />
+  <img src="https://awesome-github-stats.azurewebsites.net/user-stats/cattolatte?cardType=level-alternate&theme=chartreuse-dark&preferLogin=false&Background=0D1117&Title=00FF41&Icon=00FF41&Text=C9D1D9&Ring=00FF41&Border=00000000" height="200" />
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/cattolatte">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cattolatte&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00FF41&text_color=c9d1d9&langs_count=8" />
+  <img src="https://awesome-github-stats.azurewebsites.net/user-stats/cattolatte?cardType=octocat&theme=chartreuse-dark&preferLogin=false&Background=0D1117&Title=00FF41&Icon=00FF41&Text=C9D1D9&Ring=00FF41&Border=00000000" height="200" />
 </a>
 
 <br/><br/>
 
 <img src="https://streak-stats.demolab.com?user=cattolatte&theme=chartreuse-dark&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=555555" />
-
-<br/><br/>
-
-<!-- TROPHIES -->
-<img src="https://github-profile-trophy.vercel.app/?username=cattolatte&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=5" />
 
 </div>
 
