@@ -10,7 +10,7 @@ CS undergraduate at Geethanjali College of Engineering & Technology, India.
 
 ---
 
-## Featured work
+## 🚀 Featured work
 
 Three flagship projects define what I work on: two complementary from-scratch NLP systems and an ML pipeline orchestration engine. **Polaris encodes; Zenith generates; InferFlow orchestrates.** Polaris and Zenith together cover the modern NLP lifecycle — data, tokenization, models, training, evaluation, fine-tuning, and serving — with every component hand-written and readable end to end. PyTorch supplies only autograd, containers, and optimizers.
 
@@ -21,6 +21,10 @@ Three flagship projects define what I work on: two complementary from-scratch NL
 [![Python](https://img.shields.io/badge/python-3.12+-blue)](https://www.python.org)
 
 A complete, from-scratch NLP system for *understanding* text — transformer encoders and classification — that you can read end to end and run reproducibly. The primary product is the codebase itself: a reference implementation engineered like production software.
+
+```
+raw text ──▶ tokenizer ──▶ collation ──▶ encoder ──▶ training ──▶ evaluation ──▶ FastAPI serving
+```
 
 - **Full lifecycle in one cohesive platform**: datasets → tokenization → collation → encoder models → training → evaluation → FastAPI deployment.
 - **Reference implementation first**: tokenizers, models, and training loops written from scratch on PyTorch tensors — no wrapping of existing frameworks ([ADR-0001](https://github.com/cattolatte/Polaris/blob/main/docs/adr/0001-project-identity.md)).
@@ -35,6 +39,10 @@ A complete, from-scratch NLP system for *understanding* text — transformer enc
 
 A clean library for decoder-only transformer language models, causal-LM training, and text generation, built on PyTorch tensor primitives.
 
+```
+prompt ──▶ BPE tokenizer ──▶ decoder (RoPE · RMSNorm · SwiGLU) ──▶ KV-cache ──▶ sampling ──▶ streamed text
+```
+
 - **Hand-written modern architecture** — Llama-style (RoPE, RMSNorm, SwiGLU, weight-tied embeddings) or GPT-2-style, with an optional fused SDPA attention path.
 - **It works, measurably**: a 10.7M-parameter from-scratch decoder trained in ~10 min on a MacBook reaches **2.08 bits/char** on tiny-shakespeare — matching the nanoGPT baseline ([BENCHMARKS.md](https://github.com/cattolatte/zenith-nlp-framework/blob/main/BENCHMARKS.md)).
 - **Generation engine**: greedy / temperature / top-k / nucleus / beam search with KV-cache and streaming, plus greedy-exact **speculative decoding** (3×+ fewer target forward passes, output identical to greedy).
@@ -48,6 +56,12 @@ The two interoperate — `zenith.interop.PolarisTokenizer` lets a Zenith decoder
 
 A declarative orchestration engine that gives ML workflows **computational memory**: every pipeline step's result is recorded in a time-series database, so pipelines can reason about data drift and model performance over time, not just execute statelessly.
 
+```
+YAML pipeline ──▶ queue (RabbitMQ) ──▶ workers ──▶ time-series memory (InfluxDB) ──▶ temporal meta-analysis
+                                         │
+                                         └──▶ human review on low confidence
+```
+
 - **Declarative YAML pipelines** with multi-step logic, conditional execution, and multi-modal inputs (text, images).
 - **Chrono-compute engine**: automatic time-series recording (InfluxDB) of every step enables real-time temporal meta-analysis of models and data.
 - **Human-in-the-loop**: pipelines pause on low-confidence results and request verification through a dedicated review UI.
@@ -55,18 +69,22 @@ A declarative orchestration engine that gives ML workflows **computational memor
 
 ---
 
-## Currently
+## 🔭 Currently
 
 - Extending Polaris, Zenith, and InferFlow: benchmarks, docs, and roadmap items toward larger trained models and richer pipeline analytics.
 - Studying adversarial ML and LLM red-teaming — how generative systems fail under attack, and how to evaluate that systematically.
 
-## Research interests
+## 🧭 Engineering philosophy
+
+I build from first principles. If I can't implement a system myself — the tokenizer, the attention math, the training loop, the serving layer — I don't consider that I understand it. But a from-scratch implementation isn't finished until it's engineered: reproducible, benchmarked against a known baseline, configuration-driven, tested, and released. Clarity is a feature; the codebase should be readable as a teaching text and runnable as a product.
+
+## 🔬 Research interests
 
 - **From-scratch reference implementations** of modern NLP: how far clarity-first engineering can go before you need framework abstractions.
 - **Inference efficiency**: speculative decoding, KV-caching, quantization — techniques I've implemented and benchmarked in Zenith.
 - **Adversarial ML & AI security**: prompt injection, model red-teaming, and exploit detection with ML — the meeting point of my security background and ML work.
 
-## Selected projects
+## 🗂️ Selected projects
 
 | Project | What it is |
 |---|---|
@@ -74,11 +92,11 @@ A declarative orchestration engine that gives ML workflows **computational memor
 | [Movie Sentiment Analyzer](https://github.com/cattolatte/movie-sentiment-analyzer) | Custom-trained transformer exported to **ONNX**, served from a Java backend — cross-runtime ML deployment end to end. |
 | [Advanced Vulnerability Scanner](https://github.com/cattolatte/advanced_vulnerability_scanner) | Nmap-based scanner with custom detection modules and severity-classified assessment reports. |
 
-## Open source
+## 🌱 Open source
 
 Both flagship projects are MIT-licensed, released (Polaris on [PyPI](https://pypi.org/project/polaris-nlp/), Zenith with tagged [releases](https://github.com/cattolatte/zenith-nlp-framework/releases)), documented with benchmarks, model cards, and ADRs, and open to issues and contributions. If you're learning how transformers actually work under the hood, they're written to be read — start with Zenith's [module overview](https://github.com/cattolatte/zenith-nlp-framework/blob/main/docs/modules.md).
 
-## GitHub activity
+## 📈 GitHub activity
 
 <p>
   <img src="https://github-readme-stats.vercel.app/api?username=cattolatte&show_icons=true&hide_border=true&rank_icon=github" height="165" alt="GitHub stats" />
