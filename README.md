@@ -1,4 +1,4 @@
-# Hi, I'm Nischal (Satya Sai Nischal K)
+# Hi, I'm Nischal
 
 **I build machine learning infrastructure — training pipelines, evaluation frameworks, and inference systems, from scratch.**
 
