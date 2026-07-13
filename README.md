@@ -98,10 +98,6 @@ Both flagship projects are MIT-licensed, released (Polaris on [PyPI](https://pyp
 
 ## 📈 GitHub activity
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=cattolatte&show_icons=true&hide_border=true&rank_icon=github" height="165" alt="GitHub stats" />
-</p>
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=cattolatte&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution graph" width="100%" />
 
 ---
