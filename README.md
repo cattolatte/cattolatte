@@ -12,7 +12,7 @@ CS undergraduate at Geethanjali College of Engineering & Technology, India.
 
 ## 🚀 Featured work
 
-Three flagship projects define what I work on: two complementary from-scratch NLP systems and an ML pipeline orchestration engine. **Polaris encodes; Zenith generates; InferFlow orchestrates.** Polaris and Zenith together cover the modern NLP lifecycle — data, tokenization, models, training, evaluation, fine-tuning, and serving — with every component hand-written and readable end to end. PyTorch supplies only autograd, containers, and optimizers.
+Four flagship projects define what I work on: two complementary from-scratch NLP systems, a grounded RAG engine built on top of them, and an ML pipeline orchestration engine. **Polaris encodes; Zenith generates; Meridian grounds; InferFlow orchestrates.** Polaris and Zenith together cover the modern NLP lifecycle — data, tokenization, models, training, evaluation, fine-tuning, and serving — with every component hand-written and readable end to end. PyTorch supplies only autograd, containers, and optimizers.
 
 ### ⭐ [Polaris](https://github.com/cattolatte/Polaris) — a production-inspired NLP engineering platform
 
@@ -52,6 +52,23 @@ prompt ──▶ BPE tokenizer ──▶ decoder (RoPE · RMSNorm · SwiGLU) ─
 
 The two interoperate — `zenith.interop.PolarisTokenizer` lets a Zenith decoder generate over a Polaris vocabulary — but each stands alone.
 
+### ⭐ [Meridian](https://github.com/cattolatte/meridian) — a from-scratch grounded RAG engine
+
+[![CI](https://github.com/cattolatte/meridian/actions/workflows/ci.yml/badge.svg)](https://github.com/cattolatte/meridian/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/cattolatte/meridian?sort=semver)](https://github.com/cattolatte/meridian/releases)
+[![License: MIT](https://img.shields.io/github/license/cattolatte/meridian)](https://github.com/cattolatte/meridian/blob/main/LICENSE)
+[![Checked with mypy](https://img.shields.io/badge/mypy-strict-blue)](https://mypy-lang.org/)
+
+The capstone, shipped at **v1.0** across 12 phased releases: a grounded RAG engine over biomedical literature (PubMed) with **no third-party pre-trained models and no FAISS/embedding APIs** — from-scratch BPE tokenizer, InfoNCE-trained dense bi-encoder, hand-written IVF and HNSW ANN indexes, cross-encoder reranker, and a 3-class NLI faithfulness verifier, with encoding from Polaris and generation from Zenith (frameworks I also built). **Every answer is cited, verified, or refused.** Research literature assistant; not medical advice.
+
+```
+question ──▶ BM25 + dense retrieval ──▶ HNSW ANN ──▶ rerank ──▶ cited generation (Zenith) ──▶ NLI verify (Polaris) ──▶ answer, or refusal
+```
+
+- **Every number is measured, seeded, and reproducible from a committed script**: BM25 R@5 **0.987** on PubMedQA dev; from-scratch HNSW at recall@10 **0.996 in 0.262 ms — faster than exact search**; NLI verifier trained on 942K pairs to **78.3%** on SNLI dev (chance 33.3%, up +36.8 pts from the first working model); calibrated refusal gate at **80.1% coverage with 0.000 error**; per-stage P50/P95 latency profiled (rerank costs ~320× BM25 — measured, so it's off by default).
+- **Negative results published, not hidden**: a seed-averaged ablation showed MLM pretraining contributed nothing measurable to retrieval (overturning my own documented claim), BM25 beats the from-scratch dense retriever on this lexically-easy task, and the verifier's SNLI accuracy doesn't transfer to biomedical prose — each diagnosed and documented in [BENCHMARKS.md](https://github.com/cattolatte/meridian/blob/main/benchmarks/BENCHMARKS.md).
+- **The evaluation harness is the product**: 254 tests at 95.7% coverage, `mypy --strict` across 155 files, checksum-guarded frozen eval splits, charts regenerated from committed measurement data, 8 ADRs, CI matrix on Python 3.12/3.13 × Ubuntu/macOS. ~11K LOC of Python/PyTorch.
+
 ### ⭐ [InferFlow](https://github.com/cattolatte/InferFlow) — the time-aware AI pipeline engine
 
 A declarative orchestration engine that gives ML workflows **computational memory**: every pipeline step's result is recorded in a time-series database, so pipelines can reason about data drift and model performance over time, not just execute statelessly.
@@ -71,6 +88,7 @@ YAML pipeline ──▶ queue (RabbitMQ) ──▶ workers ──▶ time-series
 
 ## 🔭 Currently
 
+- Just shipped [Meridian](https://github.com/cattolatte/meridian) **v1.0** — next up: SciNLI domain adaptation to close the verifier's biomedical gap, the ~200K-abstract PubMed corpus, and training the generator at scale.
 - Extending Polaris, Zenith, and InferFlow: benchmarks, docs, and roadmap items toward larger trained models and richer pipeline analytics.
 - Studying adversarial ML and LLM red-teaming — how generative systems fail under attack, and how to evaluate that systematically.
 
@@ -82,6 +100,7 @@ I build from first principles. If I can't implement a system myself — the toke
 
 - **From-scratch reference implementations** of modern NLP: how far clarity-first engineering can go before you need framework abstractions.
 - **Inference efficiency**: speculative decoding, KV-caching, quantization — techniques I've implemented and benchmarked in Zenith.
+- **Grounded generation & faithfulness**: citation-verified RAG, calibrated refusal, and hallucination detection — the core of Meridian, including where verifiers fail to transfer across domains.
 - **Adversarial ML & AI security**: prompt injection, model red-teaming, and exploit detection with ML — the meeting point of my security background and ML work.
 
 ## 🗂️ Selected projects
